@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Oxygen:wght@300;400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,400;0,700;1,300;1,400&display=swap');
+*{
+    margin: auto 0px ;
+    padding: 0px;
+}
+body{
+    background: rgb(0,168,232);
+    background: linear-gradient(90deg, rgba(0,168,232,1) 0%, rgba(61,64,205,1) 10%, rgba(64,59,204,1) 50%, rgba(59,67,206,1) 90%, rgba(5,159,230,1) 100%);
+    }
+body header div{
+    position:absolute;
+    height: 100%;
+    left: 50%;
+    top: 6%;
+    transform: translate(-50%, 0);
+}
+body div .logo{
+   position:absolute;
+    width:100px;
+    top:  -2%; 
+}
+.logo-text{  
+    position: absolute;
+    width:150px;
+    top: -5%;   
+    left: 30%;
+}
+.text-slogan{
+   
+    font-family: "ubuntu";
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+   position: relative;
+    
+    top: 80px;
+}
+.social{
+    font-family: "ubuntu";
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+   position:absolute ;
+    top: 67%; 
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-size: 33px;
+}
+section div{
+    display: flex;
+    align-items:center ;
+    justify-content:center;
+    
+    
+   
+    
+}
+.button{
+    position: absolute;
+    top: 25%;
+  padding: 20px;
+  padding-left: 100px ;
+  padding-right: 50px ;
+  border-radius: 10px 50px;
+  border:  #faf9f6;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 20px;
+  text-transform: uppercase;
+  transition:  500ms ;
+  cursor: pointer;
+  max-height:25cm ;
+  min-height: -2px;
+}
+.button2{
+    position: absolute;
+    top: 45%;
+    background-color:#0a1121 ;
+    color: #ffffff;
+  padding: 20px;
+  padding-left: 100px ;
+  padding-right: 50px ;
+  border-radius: 10px 50px;
+  border:  #faf9f6;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 20px;
+  text-transform: uppercase;
+  transition:  500ms ;
+  cursor: pointer;
+}
+.button3{
+    position: absolute;
+    top: 80%;
+  padding: 20px;
+  padding-left: 150px ;
+  padding-right: 150px ;
+  border-radius: 10px 50px;
+  border:  #faf9f6;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 20px;
+  text-transform: uppercase;
+  transition:  500ms ;
+  cursor: pointer;
+}
+.button4{
+    position: absolute;
+    top: 100%;
+  padding: 20px;
+  padding-left: 150px ;
+  padding-right: 150px ;
+  border-radius: 10px 50px;
+  border:  #faf9f6;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 20px;
+  text-transform: uppercase;
+  transition:  500ms ;
+  cursor: pointer;
+}
+.button5{
+    position: absolute;
+    top: 120%;
+  padding: 20px;
+  padding-left: 150px ;
+  padding-right: 150px ;
+  border-radius: 10px 50px;
+  border:  #faf9f6;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 20px;
+  text-transform: uppercase;
+  transition:  500ms ;
+  cursor: pointer;
+}
+.button6{
+    position: absolute;
+    top: 140%;
+  padding: 20px;
+  padding-left: 150px ;
+  padding-right: 150px ;
+  border-radius: 10px 50px;
+  border:  #faf9f6;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 20px;
+  text-transform: uppercase;
+  transition:  500ms ;
+  cursor: pointer;
+  
+}
+
+  
+section div button img{
+    width: 20% ;
+    position:relative  ;
+    left:-30%;
+    top: 20%;
+    
+}
+.inner-text{
+    position:relative ;
+    top:-20px ;
+    left: -10%;
+}
+button:hover{
+    background-color:#ffffff ;
+    
+     text-transform: uppercase;
+     font-size: 21px;
+}
+section div .button2:hover{
+    background-color:#0a1121 ;
+    border: transparent ;
+     text-transform: uppercase;
+     font-size: 21px;
+}
+section div .button2:active{
+    background-color:#0a1121 ;
+    border: transparent ;
+     text-transform: uppercase;
+     font-size: 23px;
+}
+button:active{
+    background-color:#ffffff ;
+    
+     text-transform: uppercase;
+     font-size: 23px;
+}
+.face{
+    height: 100%;
+    width: 60px;
+    left: -70%;
+}
+a{
+    display: grid;
+    place-items: center ;
+}
+/*
+.footer{
+    background-color: #0a1121;
+    height: 18%;
+    width: 100%;
+    position: absolute;
+    bottom: -85%;
+}
+.logofoot{
+    position:absolute;
+    width:120px;
+    top:  -4%; 
+    left: 5%;
+    margin-left:10px ;
+}
+
+.footertext{
+     color: white;
+     font-family:"ubuntu" ;
+     font-family: 400;
+     position: absolute;
+     font-size: 30px;
+     left: 25%;
+     bottom: 50%;
+}
+
+
+a::after{
+    position:absolute ;
+    content: "";
+    top: 25%;
+    left: 0px;
+    background-color: #0a1121;
+    width: 20px;
+    height: 20px;
+    padding: 50px;
+    padding-left: 5px ;
+    padding-right: 50px ;
+    border-radius: 10px 50px;
+    transition: slide 200ms;
+  
+}
